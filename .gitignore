@@ -1,0 +1,35 @@
+﻿# Qt Creator
+.qtcreator/
+*.user
+*.user.*
+
+# CMake
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled binaries
+*.exe
+*.dll
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+
+# Runtime baggage data and backups
+baggage_data.json
+baggage_data.json.bak
+*.bak
+
+# Exported manifests
+baggage_manifest.csv
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
